@@ -5,7 +5,7 @@ import { products } from '../utils/Data'
 
 const ProductContainer = () => {
   return (
-    <div className='flex flex-wrap px-16 mx-auto justify-between'>
+    <div className='flex flex-wrap px-10 sm:px-16 mx-auto justify-between items-center'>
 
     {
         products.map((item) => <Product key={item.id} data={item}/> )
