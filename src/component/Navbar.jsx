@@ -7,9 +7,9 @@ const Navbar = () => {
 
   return (
     <div className="sticky top-0 z-50 bg-white">
-      <div className="px-4 md:px-24 shadow-lg mx-auto flex justify-between items-center">
+      <div className=" md:px-24 shadow-lg mx-auto flex justify-between items-center pt-2">
         <div>
-          <img className="w-32 md:w-40 py-2" src="../logocopy.png" alt="" />
+          <img className="w-28 md:w-40 py-2" src="../logocopy.png" alt="" />
         </div>
         <div className="flex gap-1 sm:gap-5">
           <Link to={"./"}>
